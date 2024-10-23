@@ -56,6 +56,28 @@
 .ci_icon{
     width: 20px;
 }
+/* testymony */
+.t_item {
+    margin-top: 30px;
+}
+.t_img {
+    padding: 0 60px 20px;
+}
+.t_text {
+    text-align: center;
+}
+/* footer top start */
+.footer_top {
+    text-align: center;
+    padding: 55px 0 20px;
+}
+.ft_details {
+    padding-right: 0;
+    margin-bottom: 35px;
+}
+.ft_links {
+    margin-bottom: 35px;
+}
 
 }
 
@@ -106,6 +128,26 @@
 .ci_h2{
     font-size: 20px;
 }
+/* testymony */
+.t_item {
+    margin-top: 30px;
+}
+.t_img {
+    padding: 0 120px 25px;
+}
+.t_text {
+    text-align: center;
+}
+/* footer top start */
+.footer_top{
+    text-align: center;
+}
+.ft_details {
+    margin-bottom: 35px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
 }
 
 
@@ -136,6 +178,19 @@
     .c_item {
         margin: 40px 100px 0;
     }
+    /* testymony start */
+    .t_item{
+        margin-top: 40px;
+    }
+    /* footer top start */
+    .footer_top{
+        text-align: center;
+    }
+    .ft_details {
+        margin-bottom: 35px;
+        padding-right: 80px;
+        padding-left: 80px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -162,5 +217,9 @@
 /* banner start */
 .b_h1{
     margin: 10px 119px 20px 0;
+}
+/* footer top start */
+.ft_details {
+    padding-right: 134px;
 }
 }

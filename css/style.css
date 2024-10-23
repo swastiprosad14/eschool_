@@ -112,8 +112,6 @@ line-height: 36px;
 /* banner end */
 
 /* feature start */
-.feature{
-}
 .c_p{
     padding-bottom: 100px;
 }
@@ -139,12 +137,8 @@ color: var(--black);
 font-weight: 500;
 line-height: 36px;
 }
-.sf_p{}
 /* feature end */
 /* course start */
-.course{}
-.c_title{
-}
 .c_title h1{
 font-size: 36px;
 font-weight: 700;
@@ -158,7 +152,6 @@ color: var(--black);
     border-radius: 18px;
     box-shadow: 0px 10px 40px 0px #0000001A;
 }
-.ci_img{}
 .ci_img img{
     text-align: center;
     border-radius: 11px;
@@ -170,24 +163,59 @@ font-size: 24px;
 font-weight: 500;
 line-height: 36px;
 }
-.ci_p{}
+
 .ci_link{
     padding: 8px 28px;
     margin: 19px 0 34px 0;
 }
-.ci_footer{}
-.ci_left{}
-.ci_right{}
-.nli{}
-.ci_icon{}
+
 .ci_span{
     font-weight: 500;
 }
 /* course end */
 /* testimoniel start */
-.t_item{}
-.t_img{}
-.t_img img{}
-.t_text{}
-.t_text p{}
+.t_item{
+    margin-top: 60px;
+}
 /* testimoniel end */
+
+/* footer top start */
+.footer_top{
+    padding: 55px 0 55px;
+    background-color: #282531;
+}
+.ft_details{
+    padding-right: 100px;
+}
+.ft_details p{
+    color: white;
+line-height: 30px;
+
+}
+.ft_links h2{
+    margin-bottom: 8px;
+font-size: 18px;
+font-weight: 700;
+color: white;
+line-height: 30px;
+}
+.ft_links ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+/* footer top end */
+/* footer start */
+footer{
+    padding: 20px 0 30px;
+    background-color: #282531;
+}
+footer p{
+    color: white;
+}
+footer p a{
+    color: white;
+    line-height: 30px;
+    text-decoration: none;
+}
+/* footer end */
